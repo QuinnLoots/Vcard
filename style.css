@@ -1,0 +1,58 @@
+body{
+    background-image: url("header.png");
+    background-repeat: no-repeat;
+    background-size: 100vw 300px;
+}
+
+h1{
+    font-size: 50px;
+    color: #ffffff
+}
+
+i{
+    font-size: 48px;
+}
+.profielfoto{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.profielfoto > img{
+    border-radius: 50%;
+    border:10px solid #ffffff;
+}
+
+.headercontainer, .maincontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.headertext{
+    margin-left: 25%;
+}
+
+.maincontainer{
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.icon{
+    margin-left: 20px;
+}
+
+.footercontainer > img{
+    height: 300px;
+    width: 100vw;
+}
+
+.footercontainer{
+     position: relative;
+   
+}
+
+.textblock{
+    position: absolute;
+      top: 25vh;
+}
+
