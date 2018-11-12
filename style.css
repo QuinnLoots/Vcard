@@ -2,11 +2,17 @@ body{
     background-image: url("header.png");
     background-repeat: no-repeat;
     background-size: 100vw 300px;
+    margin: 0;
+    
 }
 
 h1{
     font-size: 50px;
     color: #ffffff
+}
+
+p{
+    font-size: 30px;
 }
 
 i{
@@ -17,24 +23,24 @@ i{
     margin-left: 25px;
 }
 
-.profielfoto > img{
+.profielfoto img{
     border-radius: 50%;
     border:10px solid #ffffff;
 }
 
-.headercontainer, .maincontainer{
+.headercontainer, .maincontainer, .textblock{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
 .headertext{
-    margin-left: 25%;
+    margin-left: 30%;
 }
 
 .maincontainer{
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .icon{
@@ -47,12 +53,15 @@ i{
 }
 
 .footercontainer{
-     position: relative;
-   
+    position: relative;
 }
 
 .textblock{
     position: absolute;
-      top: 25vh;
+    top: 25vh;
+    left: 35%;
 }
 
+.textblock i{
+    color:#ffffff;
+}
